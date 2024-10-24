@@ -6,14 +6,17 @@
 <div>
     <a href='https://alimohammadiamirhossein.github.io/' target='_blank'>Amir Alimohammadi</a><sup>1</sup>&emsp;
     <a href='https://sauradip.github.io/' target='_blank'>Sauradip Nag</a><sup>1</sup>&emsp;
-  <a href='https://asgsaeid.github.io/' target='_blank'>Saeid Asgari Taghanaki</a><sup>2</sup>&emsp; 
-  <a href='https://taiya.github.io/' target='_blank'>Andrea Tagliasacchi</a><sup>1</sup>&emsp; <br>
+  <a href='https://asgsaeid.github.io/' target='_blank'>Saeid Asgari Taghanaki</a><sup>1, 2</sup>&emsp; 
+  <a href='https://taiya.github.io/' target='_blank'>Andrea Tagliasacchi</a><sup>1, 3, 4</sup>&emsp; <br>
   <a href='https://www.medicalimageanalysis.com/' target='_blank'>Ghassan Hamarneh</a><sup>1</sup>&emsp;
     <a href='https://www.sfu.ca/~amahdavi' target='_blank'>Ali Mahdavi Amiri</a><sup>1</sup>&emsp;
 </div>
 <div>
-    <sup>1</sup>School of Computing, Simon Fraser University, Canada&emsp;
-    <sup>2</sup>Autodesk Research&emsp; <br>
+    <sup>1<b>Simon Fraser University</b>
+    <sup>2</sup>Autodesk Research
+    <sup>3</sup>University of Toronto
+    <sup>4</sup>Google DeepMind
+        &emsp; <br>
 </div>
 
 <h3 align="center">
