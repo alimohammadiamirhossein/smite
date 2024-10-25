@@ -29,7 +29,7 @@ SMITE is an advanced open-source framework for temporally consistent video segme
 <div align="center">
 <table>
 <tr>
-    <td><img src="https://github.com/alimohammadiamirhossein/Division_Examples/blob/main/assets/teaser.png" width="100%"/></td>
+    <td><img src="https://github.com/alimohammadiamirhossein/smite/blob/main/assets/teaser.png" width="100%"/></td>
 </tr>
 </table>
 </div>
