@@ -20,7 +20,7 @@
 </div>
 
 <h3 align="center">
-  <a href="" target='_blank'>Paper</a> |
+  <a href="https://arxiv.org/abs/2410.18538" target='_blank'>Paper</a> |
   <a href="https://segment-me-in-time.github.io" target='_blank'>Project Page</a> 
 </h3>
 </div>
@@ -90,11 +90,13 @@ SMITE
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
 ```
-@article{nag2022zero,
-  title={SMITE:Segment Me in Time},
-  author={Names},
-  journal={arXiv e-prints},
-  pages={arXiv--2207},
-  year={2024}
+@misc{alimohammadi2024smitesegmenttime,
+      title={SMITE: Segment Me In TimE}, 
+      author={Amirhossein Alimohammadi and Sauradip Nag and Saeid Asgari Taghanaki and Andrea Tagliasacchi and Ghassan Hamarneh and Ali Mahdavi Amiri},
+      year={2024},
+      eprint={2410.18538},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.18538}, 
 }
 ```
