@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1>ICLR 2025: SMITE: Segment Me In TimE</h1>
+<h1>SMITE: Segment Me In TimE</h1>
 
 <div>
     <a href='https://alimohammadiamirhossein.github.io/' target='_blank'>Amir Alimohammadi</a><sup>1</sup>&emsp;
@@ -17,6 +17,9 @@
     <sup>3</sup>University of Toronto
     <sup>4</sup>Google DeepMind
         &emsp; <br>
+</div>
+<div>
+    Accepted in <b>ICLR 2025</b>
 </div>
 
 <h3 align="center">
