@@ -37,8 +37,6 @@ SMITE is an advanced open-source framework for temporally consistent video segme
 </table>
 </div>
 
-## Note: We will release the full code soon. Stay tuned for updates!
-
 ## Why SMITE?
 
 - SMITE minimizes dataset needs by leveraging pre-trained diffusion models and a few reference images for segmentation.
