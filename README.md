@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1>SMITE: Segment Me In TimE</h1>
+<h1>ICLR 2025: SMITE: Segment Me In TimE</h1>
 
 <div>
     <a href='https://alimohammadiamirhossein.github.io/' target='_blank'>Amir Alimohammadi</a><sup>1</sup>&emsp;
