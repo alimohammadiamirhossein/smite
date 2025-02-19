@@ -15,10 +15,10 @@ declare -A track_weight
 # Texual prompt for the mod
 prompts["horse"]="background head neck+torso leg tail"
 
-# train_dirs["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/train_10"
-train_dirs["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/train_1"
-val_dirs["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/val"
-test_dirs["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/test"
+
+train_dirs["horse"]="data/training_data/horse"
+val_dirs["horse"]="data/h/val"
+test_dirs["horse"]="data/h/test"
 
 min_crop_ratio["horse"]=0.8
 
@@ -27,11 +27,11 @@ min_crop_ratio["horse"]=0.8
 # Assign values for different mods (e.g., cars, horses)
 checkpoint_paths["horse"]="logs/log_horse_2024-11-12_19-47-09/ckpt_best.pt"
 
-video_base_paths["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/vi/"
+video_base_paths["horse"]="data/h/vi/"
 
 file_names["horse"]="horse3 horse20 horse9 horse45 horse46 horse48 Horse_3_front_view Horse_2_front_view horse2"
 
-gt_base_paths["horse"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/ground_truth/horse"
+gt_base_paths["horse"]="ground_truth/horse"
 
 
 regularization_weight["horse"]=0

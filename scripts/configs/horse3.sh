@@ -15,17 +15,17 @@ declare -A track_weight
 # Texual prompt for the mod
 prompts["horse3"]="background head tail body1 body2 leg1 leg2 leg3 leg4 leg5"
 
-train_dirs["horse3"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h3/train_10"
-val_dirs["horse3"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h3/val"
+train_dirs["horse3"]="data/h3/train_10"
+val_dirs["horse3"]="data/h3/val"
 
 min_crop_ratio["horse3"]=0.8
 
 
 ############################################ Inference Setups ############################################
 # Assign values for different mods (e.g., cars, horses)
-checkpoint_paths["horse3"]="/localhome/aaa324/Project/FLATTEN/SMiTe/SMITE/logs/log_horse3_2024-10-13_12-37-03/ckpt_best.pt"
+checkpoint_paths["horse3"]="logs/log_horse3_2024-10-13_12-37-03/ckpt_best.pt"
 
-video_base_paths["horse3"]="/localhome/aaa324/Project/FLATTEN/DiViSe_Custom/data/h/vi/"
+video_base_paths["horse3"]="data/h/vi/"
 
 file_names["horse3"]="horse2 horse3 horse20 horse9 horse43 horse45 horse46 horse48 horse2 horse64 horse2 Horse_3_front_view Horse_2_front_view"
 file_names["horse3"]="horse9"
