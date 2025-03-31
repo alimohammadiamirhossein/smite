@@ -12,7 +12,7 @@
     <a href='https://www.sfu.ca/~amahdavi' target='_blank'>Ali Mahdavi Amiri</a><sup>1</sup>&emsp;
 </div>
 <div>
-    <sup>1<b>Simon Fraser University</b>
+    <sup>1</sup><b>Simon Fraser University</b>
     <sup>2</sup>Autodesk Research
     <sup>3</sup>University of Toronto
     <sup>4</sup>Google DeepMind
@@ -146,6 +146,7 @@ bash scripts/test_on_images.sh \
 
 - [x] Add training script
 - [x] Add inference script
+- [ ] Add Checkpoints
 - [ ] Add dataset
 - [ ] Support for XMEM++ dataset
 - [ ] Enable multi-gpu training
