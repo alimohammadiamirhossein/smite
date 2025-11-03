@@ -24,7 +24,8 @@
 
 <h3 align="center">
   <a href="https://arxiv.org/abs/2410.18538" target='_blank'>Paper</a> |
-  <a href="https://segment-me-in-time.github.io" target='_blank'>Project Page</a> 
+  <a href="https://segment-me-in-time.github.io" target='_blank'>Project Page</a> |
+    <a href="https://drive.google.com/file/d/17JiV9HVxZZFB8cakshuUdoVEaprrlJbq/view?usp=sharing" target='_blank'>Dataset</a>
 </h3>
 </div>
 SMITE is an advanced open-source framework for temporally consistent video segmentation, designed to predict and segment objects across video frames using one or few reference images. With its ability to track and generalize unseen video sequences based on flexible granularity, it ensures precision and efficiency in segmentation, even when faced with occlusions, varying poses, and lighting conditions.
@@ -142,12 +143,21 @@ bash scripts/test_on_images.sh \
 --test_dir=/path/to/the/dataset
 ```
 
+## Dataset
+
+Each folder in the dataset contains:
+- The original **video** file, and  
+- A **frames_numbers.txt** file listing the frame indices that were manually annotated.  
+
+We only annotate part of the frames in each video to maintain efficiency.  
+If you wish to generate annotations for **all video frames**, we recommend using the [**XMem2**](https://github.com/mbzuai-metaverse/XMem2) framework. It produces high-quality segmentation interpolation with accuracy close to ground truth when consecutive frames have minimal appearance or motion changes.
+
 ### TO-DO Checklist
 
 - [x] Add training script
 - [x] Add inference script
 - [ ] Add Checkpoints
-- [ ] Add dataset
+- [x] Add dataset
 - [ ] Support for XMEM++ dataset
 - [ ] Enable multi-gpu training
 
