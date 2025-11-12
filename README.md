@@ -25,7 +25,7 @@
 <h3 align="center">
   <a href="https://arxiv.org/abs/2410.18538" target='_blank'>Paper</a> |
   <a href="https://segment-me-in-time.github.io" target='_blank'>Project Page</a> |
-    <a href="https://drive.google.com/file/d/17JiV9HVxZZFB8cakshuUdoVEaprrlJbq/view?usp=sharing" target='_blank'>Dataset</a>
+    <a href="https://drive.google.com/file/d/1WiWg6nrobaN0TPfGdxk04FveUGPuWnKk/view?usp=sharing" target='_blank'>Dataset</a>
 </h3>
 </div>
 SMITE is an advanced open-source framework for temporally consistent video segmentation, designed to predict and segment objects across video frames using one or few reference images. With its ability to track and generalize unseen video sequences based on flexible granularity, it ensures precision and efficiency in segmentation, even when faced with occlusions, varying poses, and lighting conditions.
