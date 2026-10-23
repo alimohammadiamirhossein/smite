@@ -111,7 +111,7 @@ To train SMITE from scratch run the following command. The training configuratio
 ```shell script
 bash scripts/train.sh [domain of the objects (e.g., car, horse)]
 ```
-for more training configs please visit [here](https://github.com/alimohammadiamirhossein/Division_Examples/blob/main/assets/ARGS_README.md#Train).
+for more training configs please visit [here](assets/ARGS_README.md#train).
 
 ### Model Inference 
 We will provide the pretrained models containing the checkpoints for the following classes with granularity (1=coarse, 3=fine): 
@@ -127,10 +127,10 @@ The model inference can be then performed using the following command
 ```shell script
 bash scripts/inference.sh \
 [domain of the objects (e.g., car, horse)] \
---ckpt_path=/path/to/ckpt_best.pt
+--ckpt_path=/path/to/ckpt_best.pt \
 --video_path=/path/to/video.mp4
 ```
-for more information about inference please visit [here](https://github.com/alimohammadiamirhossein/Division_Examples/blob/main/assets/ARGS_README.md#Inference).
+for more information about inference please visit [here](assets/ARGS_README.md#inference).
 
 
 ## Optional : Test on Image datasets
